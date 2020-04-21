@@ -1,7 +1,7 @@
 <?php
-$admin = '252395848';
-$kanal = '@udar_stslar';
-$token = '803653565:AAETeuj91kZc6cwCNjatHr8Aw8KqaYh3pE4';
+$admin = '726395317';
+$kanal = '@bandita777';
+$token = '1186148641:AAHjJA6aHAW4lUK8zQPntdLYjGmilmXoUfk';
 /*Bot kodi @erKaCoDer ga tegishli
 Manba bilan olilar*/
 function bot($method,$datas=[]){
@@ -273,7 +273,7 @@ bot('sendmessage',[
 'chat_id'=>$cid,
 'text'=>"<b>Ajoyib!</b> Ishning yarimi bajarildi. Sizga yo'llantiruvchi havolangiz orqali do'stlaringizni taklif etish qoldi xolos!
 
-Yo'llantiruvchi havola: https://t.me/aksiyatvbot?start=$cid
+Yo'llantiruvchi havola: https://t.me/pultopsumbot?start=$cid
 
 📬 Uni tanishlaringiz orasida tarqating. Buning uchun ulashish tugmasini bo'sing va yuborish uchun chat yoki guruhni tanlang",
 'parse_mode'=>'html',
@@ -285,7 +285,7 @@ if($text=="💵 Pulni chiqarish"){
 bot('sendmessage',[
 'chat_id'=>$cid,
 'text'=>"<b>Biz pul o'tkazishimiz kerak bo'lgan Paynet raqamni yozib yuboring bizga! Hech qanday qo'shimchalarsiz</b>
-<b>Namuna:</b> <code>998911234567</code>",
+<b>Namuna:</b> <code>998904025237</code>",
 'parse_mode'=>'html',
 'reply_markup'=>$key2,
 ]);
@@ -453,8 +453,8 @@ if(isset($text)){
 _Yana qaytib_ /start _buyruģini bering!_",
   'reply_markup'=>json_encode([ 
    'inline_keyboard'=>[  
-[['text'=>'Kanal 1️⃣','url'=>'https://t.me/udar_stslar']],
-[['text'=>'Kanal 2️⃣','url'=>'https://t.me/udar_stslar']]
+[['text'=>'Kanal 1️⃣','url'=>'https://t.me/bandita777']],
+[['text'=>'Kanal 2️⃣','url'=>'https://t.me/bandita777']]
 ]  
 ])  
 ]);  
@@ -483,11 +483,11 @@ if(mb_stripos($query,"-")!==false){
     'parse_mode'=>'MarkDown',
     'message_text'=>"Mobil telefoningizga pul o'tkazishdan charchadingizmi? Endi telefonga pulni telegramda shu bot orqali ishlang!
 
-[Shu yerni bosib botga kiring](t.me/aksiyatvbot?start=$iuid)",
+[Shu yerni bosib botga kiring](t.me/pultopsumbot?start=$iuid)",
   ],
     'reply_markup'=>[
             'inline_keyboard'=>[
- [['text'=>"Bosing",'url'=>"t.me/aksiyatvbot?start=$iuid"]],
+ [['text'=>"Bosing",'url'=>"t.me/pultopsumbot?start=$iuid"]],
         ]],
         ]
         ])
